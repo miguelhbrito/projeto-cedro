@@ -5,7 +5,7 @@ Serviços Back-End de um sistema para restaurantes e pratos, no qual vários res
 ## Getting Started
 
 **Windows**<br />
-Faça o download do projeto e abra com o Visual Studio, tenha instalado na sua maquina o programa Postman.
+Faça o download do projeto e abra o arquivo "projetoWebApi.sln" com o Visual Studio, tenha instalado na sua maquina o programa Postman.
 
 **Executando o projeto no Visual Studio ( F5 ou Alt + F5) :**<br />
 Ao executar o projeto, o ISS Express da própria ferramenta ira abrir no seu browser padrão a pagina da aplicação, a seguir as URLs da WebAPI:

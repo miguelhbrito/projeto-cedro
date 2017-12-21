@@ -91,19 +91,11 @@ namespace projetoWebApi.Controllers
                 return BadRequest();
             }
 
-           // _context.Pratos.Add(unid);
+            //var aux = _context.Restaurantes.Where(t => t.Id == id);
 
-            //var aux = _context.Pratos.Where(r => r.IdPrato == unid.IdPrato);
-
-            var aux2 = _context.Restaurantes.Where(t => t.Id == id);
-
-            unid.Restaurante = aux2.Id;
+            //unid.Restaurante = aux2.Id;
 
             _context.Pratos.Add(unid);
-
-            //_context.Pratos.Add(unid).Entity.Restaurante.Id.Equals(id);
-
-            //_context.Entry(unid).State = EntityState.Modified;
 
             _context.SaveChanges();
 

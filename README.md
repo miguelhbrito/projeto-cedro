@@ -27,6 +27,7 @@ http://localhost:porta/api/postrestaurantes
 
 **Adicionar um Prato no sistema ( json )**<br />
 http://localhost:porta/api/postpratos/{id} 
+
 Obs: Id do Restaurante do qual o prato pertence
 
 **Alterar um Restaurante no sistema ( json )**<br />
